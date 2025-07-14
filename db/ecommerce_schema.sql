@@ -1,4 +1,11 @@
 
+PRAGMA foreign_keys = OFF;
+
+-- Drop tables if they already exist
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS users;
+
 -- Create tables
 CREATE TABLE users (
     id INTEGER PRIMARY KEY,
