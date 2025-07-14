@@ -34,11 +34,11 @@ INSERT INTO users VALUES (1, 'Alice'), (2, 'Bob');
 INSERT INTO products VALUES
 (1, 'Laptop', 1000),
 (2, 'Phone', 500),
-(3, 'Keyboard', -30); 
+(3, 'Keyboard', 300); 
 -- (3, 'Keyboard', -30);  -- Invalid data (negative price)
 
 INSERT INTO orders VALUES
-(1, 1, 1, 1, '2024-06-01'),
+(1, 1, 1, 1, '2024-06-01');
 -- (2, 2, 2, 0, '2025-10-01'),  -- Invalid (quantity 0)
 -- (3, 99, 2, 1, '2024-05-05'), -- Invalid (non-existent user)
 -- (4, 1, 3, 1, '2030-01-01');  -- Invalid future date
